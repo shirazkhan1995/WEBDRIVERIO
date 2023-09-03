@@ -12,9 +12,6 @@ jobs:
         - name: Install
           run: npm install
         - name: Test
-          env: 
-          BROWSERSTACK_USERNAME: ${{secrets.BS_NAME}}
-          BROWSERSTACK_ACCESS_KEY: ${{secrets.BS_KEY}}
           run: npx wdio run wdio.bs.conf.js --spec ./test/specs/APIDemo.js
         - uses: actions/upload-artifact@v1
           if: failure()
