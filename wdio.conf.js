@@ -58,7 +58,7 @@ exports.config = {
         'appium:deviceName': 'nightwatch-android-11',
         'appium:platformVersion': '11.0',
         'appium:automationName': 'UiAutomator2',
-        // "appium:app": path.join(process.cwd(),"./app/ApiDemos-debug.apk")
+        "appium:app": path.join(process.cwd(),"./app/ApiDemos-debug.apk")
     }],
 
     //
