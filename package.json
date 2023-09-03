@@ -24,6 +24,7 @@
     "wdio-wait-for": "^3.0.6"
   },
   "dependencies": {
-    "appium": "^2.0.1"
+    "appium": "^2.0.1",
+    "dotenv": "^16.3.1"
   }
 }
